@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <script src="script.js" defer></script>
+    <div class="container">
+        <form action="" id="form">
+            <h1>Register</h1>
+            <div class="input-group">
+                <label for="Firstname">Firstname</label>
+                <input type="text" id="Firstname" name="Firstname">
+                <div class="error" id="FirstnameError"></div>
+            </div>
+            <div class="input-group">
+                <label for="Lastname">Lastname</label>
+                <input type="text" id="Lastname" name="Lastname">
+                <div class="error" id="LastnameError"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="input-group">
+                <label for="Address">Address</label>
+                <input type="text" id="Address" name="Address">
+                <div class="error" id="AddressError"></div>
+            </div>
+            <div class="input-group">
+                <label for="PinCode">Pin Code</label>
+                <input type="text" id="PinCode" name="PinCode">
+                <div class="error" id="PinCodeError"></div>
+            </div>
+            <div class="input-group">
+                <label for="Gender">Gender</label>
+                <input type="text" id="Gender" name="Gender">
+                <div class="error" id="GenderError"></div>
+            </div>
+            <div class="input-group">
+                <label for="ChoiceOfFood">Choice of Food</label>
+                <select id="ChoiceOfFood" name="ChoiceOfFood">
+                    <option value="">Select a food</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Burger">Burger</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Salad">Salad</option>
+                    <option value="Sushi">Sushi</option>
+                    <option value="Steak">Steak</option>
+                    <option value="Tacos">Tacos</option>
+                    <option value="Sandwich">Sandwich</option>
+                    <option value="Soup">Soup</option>
+                    <option value="Ice Cream">Ice Cream</option>
+                </select>
+                <div class="error" id="ChoiceOfFoodError"></div>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="error" id="passwordError"></div>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword">
+                <div class="error" id="confirmPasswordError"></div>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
